@@ -1,0 +1,45 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #d3e4ef;
+    background-image: url('/images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.navbar {
+    background-color: #007bff !important; /* Primary blue for navbar */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+}
+.nav-link:hover {
+    color: #e2e6ea !important;
+}
+.navbar-nav .nav-item a {
+    font-size: 1.2rem;
+}
+
+
+.nav-tabs .nav-link {
+    color: #111214 !important;
+}
+.nav-tabs .nav-link:hover {
+    color: #0056b3; /* A slightly darker blue for text on hover */
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
